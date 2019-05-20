@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtAd_admin"
+            android:hint="Film Adı"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtAciklama_admin"
+            android:hint="Film Açıklaması"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtTur_admin"
+            android:hint="Tür"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtTeknikBilgi_admin"
+            android:hint="Teknik Bilgi"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtFilmMenuId_admin"
+            android:hint="Film Menu Id"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtFragmanLink_admin"
+            android:hint="Fragman Linki"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:met_baseColor="@color/colorPrimary"
+            android:inputType="textMultiLine"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnKapakFotoSec"
+                android:text="KAPAK FOTOĞRAFI SEÇ"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:layout_marginRight="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/btnRengi"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn1FotoSec"
+                android:text="1. FOTOĞRAFI Güncelle"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:layout_marginRight="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/btnRengi"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn2FotoSec"
+                android:text="2. FOTOĞRAFI GÜNCELLE"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:layout_marginRight="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/btnRengi"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn3FotoSec"
+                android:text="3. FOTOĞRAFI GÜNCELLE"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:layout_marginRight="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/btnRengi"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnGuncelle"
+            android:text="FOTOĞRAFI YÜKLE"
+            android:layout_weight="1"
+            android:textColor="#ffff"
+            android:layout_marginRight="8dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/btnRengi"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sonbackground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:background="@color/overlayBackground"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+    android:textStyle="bold"
+        android:fontFamily="@font/amethysta"
+        android:text="FilmApp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textIsSelectable="false"
+        android:textSize="50sp" />
+
+    <TextView
+
+        android:id="@+id/txtSlogan"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnGirisYap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/beyaz"
+            android:shadowColor="#000"
+            android:text="Giriş Yap"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnKayitOl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:background="@color/beyaz"
+
+            android:shadowColor="#000"
+            android:text="Kayıt Ol"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:onClick="adminGirisineGit"
+        android:layout_alignParentBottom="true"
+        android:textColor="#f2f2f2"
+        android:gravity="center"
+        android:background="@color/overlayBackground"
+        android:text="Admin olarak giriş yap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    
+    
+    
+    
+
+</RelativeLayout>

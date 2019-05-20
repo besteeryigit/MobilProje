@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilmEkleActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:background="#fff"
+        android:id="@+id/imgKapakFoto"
+       android:src="@drawable/iconkamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="btnImageKapak" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="#ccccb3"
+        android:id="@+id/edtAd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Film Adi" />
+
+    <EditText
+
+        android:background="#ccccb3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtAcikla"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Fil Açıklaması"/>
+
+    <EditText
+        android:background="#ccccb3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="kategori id" />
+
+    <EditText
+        android:background="#ccccb3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtLink"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Fragman Linki" />
+
+    <EditText
+        android:background="#ccccb3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtTeknik"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Teknik Bilgi" />
+
+    <EditText
+        android:background="#ccccb3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtTur"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tür" />
+
+
+
+
+    <ImageButton
+
+        android:layout_marginTop="10dp"
+       android:background="@color/beyaz"
+        android:src="@drawable/kamera123"
+        android:id="@+id/imgFoto1"
+        android:onClick="btnImageFoto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:background="@color/beyaz"
+        android:src="@drawable/kamera123"
+        android:id="@+id/imgFoto2"
+        android:onClick="btnImageFoto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:background="@color/beyaz"
+        android:src="@drawable/kamera123"
+        android:id="@+id/imgFoto3"
+        android:layout_marginTop="10dp"
+        android:onClick="btnImageFoto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:background="#9B59B6"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnFilmiKaydett"
+        android:onClick="btnKaydet"
+        android:layout_width="match_parent"
+        android:text="Filmi Ekle"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

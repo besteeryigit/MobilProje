@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "855792503525",
+    "firebase_url": "https://filmuygulamasi-b8613.firebaseio.com",
+    "project_id": "filmuygulamasi-b8613",
+    "storage_bucket": "filmuygulamasi-b8613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855792503525:android:846d130f11921d83",
+        "android_client_info": {
+          "package_name": "com.example.mobilfilmprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855792503525-oleprtg8rk7aqgp2p54vaq0lieqollff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilfilmprojesi",
+            "certificate_hash": "f4826635a2cc586fc22e12b1355a0dde17614821"
+          }
+        },
+        {
+          "client_id": "855792503525-1lmj16hbp2t4uav51c1q17gvmvlhrdju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvEC0OXzNXA_Rp_7nzN-_ZyIcIx17HQvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855792503525-1lmj16hbp2t4uav51c1q17gvmvlhrdju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

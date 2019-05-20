@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sonloginback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogInActivity">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="360dp"
+            android:id="@+id/edtAdminAdi"
+            android:hint="Admin Adı"
+            android:textColorHint="#fff"
+            android:layout_width="match_parent"
+            android:text="admin"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="34sp"
+            app:met_baseColor="#fff"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#fff"
+            android:inputType="textPersonName"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtAdminSifre"
+            android:hint="Admin Şifre"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:text="android2019"
+            android:textColor="#fff"
+            android:textSize="34sp"
+            app:met_baseColor="#fff"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdminGiris"
+        android:text="Giriş Yap"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:layout_margin="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:background="#ffff4d"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

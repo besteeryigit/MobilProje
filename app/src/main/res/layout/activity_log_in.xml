@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sonloginback"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="320dp"
+            android:id="@+id/edtKullaniciAdi"
+            android:hint="Kullanıcı Adı"
+            android:textColorHint="@color/beyaz"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:text="beste98"
+            android:textColor="@color/beyaz"
+            android:textSize="34sp"
+            app:met_baseColor="@color/beyaz"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#fff"
+            android:inputType="textPersonName"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtSifre"
+            android:hint="Şifre"
+            android:textStyle="bold"
+            android:textColorHint="@color/beyaz"
+            android:layout_width="match_parent"
+            android:text="1234"
+            android:textColor="@color/beyaz"
+            android:textSize="34sp"
+            app:met_baseColor="@color/beyaz"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <CheckBox
+                android:textStyle="bold"
+                android:id="@+id/ckbRemember"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:shadowColor="#fff"
+                android:text="Beni Hatırla"
+                android:textColor="@color/beyaz"
+                android:textColorHighlight="#fff"
+                android:textColorHint="#fff"
+                android:textColorLink="@color/common_google_signin_btn_text_dark_pressed"
+                app:cbd_strokeColor="#fff" />
+
+            <TextView
+                android:textColor="@color/beyaz"
+                android:textStyle="bold"
+                android:id="@+id/txtForgotPwd"
+                android:text="Şifremi Unuttum"
+                android:layout_weight="1"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnGiris"
+        android:textStyle="bold"
+        android:text="Giriş Yap"
+        android:textColor="#000"
+        android:layout_marginRight="8dp"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#ffff4d"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
